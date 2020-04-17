@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import { StandardDimmer } from '../lib/index';
+
 import './index.styl';
 
 ReactDOM.render(
-  <div>App is running!</div>,
+  <div><StandardDimmer/>App is running!</div>,
   document.getElementById('app'),
 );

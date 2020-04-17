@@ -1,6 +1,6 @@
 {
-  "name": "react-reusable-component-boilerplate",
-  "version": "0.0.11",
+  "name": "@xlvg/standard-dimmer",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/bundle.js",
   "bundle": "lib/bundle.es.js",
@@ -45,6 +45,7 @@
   "dependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
+    "highest-z-index-of-document": "0.0.11",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

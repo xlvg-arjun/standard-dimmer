@@ -1,7 +1,7 @@
-import SampleComponent from './components/Sample';
+import StandardDimmer from './components/StandardDimmer';
 
 import './index.styl';
 
 export {
-  SampleComponent,
+  StandardDimmer,
 };
