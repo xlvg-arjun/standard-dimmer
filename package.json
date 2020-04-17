@@ -2,9 +2,9 @@
   "name": "@xlvg/standard-dimmer",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/bundle.js",
-  "bundle": "lib/bundle.es.js",
-  "types": "lib/index.d.ts",
+  "main": "libs/bundle.js",
+  "bundle": "libs/bundle.js",
+  "types": "libs/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check-types": "tsc",
@@ -14,6 +14,9 @@
     "dev": "webpack-dev-server --config config/webpack.config.js --env=development",
     "build": "webpack --config config/webpack.config.js --env=production",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Arjun Raju Pillai <revarjunr@gmail.com>",
   "license": "ISC",
