@@ -6,6 +6,12 @@ interface DimmerProps {
   zIndex?: number;
 }
 
+const dProp = 'standardDimmerHasBeenSet';
+
+export function doesDimmerExist() {
+  return (window as any)[dProp];
+}
+
 function StandardDimmer({ zIndex }: DimmerProps) {
   let highestZIndex = null;
   if (zIndex || (zIndex === 0)) {
@@ -13,6 +19,8 @@ function StandardDimmer({ zIndex }: DimmerProps) {
   } else {
     highestZIndex = findHighestZIndex();
   }
+
+  (window as any)[dProp] = true;
 
   const style = {
     zIndex: highestZIndex,

@@ -1,6 +1,6 @@
 {
   "name": "@xlvg/standard-dimmer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "libs/bundle.js",
   "bundle": "libs/bundle.js",
